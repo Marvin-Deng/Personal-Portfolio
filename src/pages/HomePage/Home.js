@@ -1,8 +1,10 @@
 import "./HomeStyles.css"
 import IntroImg from "../../assets/intro-bg.jpg"
 import { Link } from "react-router-dom"
+import Typewriter from "typewriter-effect";
 
 const Home = () => {
+
   return (
     <div> 
       <div className="hero">
@@ -10,7 +12,20 @@ const Home = () => {
             <img className="into-img" src={IntroImg} alt="IntroImg"/>
         </div>
         <div className="content">
-            <p>Hi, I'm a developer</p>
+            <p>
+              <Typewriter 
+                options={{
+                  autoStart: true, 
+                  loop: true,
+                  delay: 80,
+                  strings: [
+                    "Hi, I'm a Web Developer",
+                    "Hi, I'm a Problem Solver",
+                    "Hi, I'm a Tech Enthusiast",
+                  ]
+                }}
+              />
+            </p>
             <h1>Marvin Deng</h1>
             <div>
                 <Link to="/projects" className="btn">

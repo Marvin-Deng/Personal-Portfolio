@@ -45,6 +45,11 @@
     font-size: 1.4rem;
     font-weight: 200;
     text-transform: uppercase;
+    display: inline;
+}
+
+.typewriter {
+    display: 'inline';
 }
 
 .content .btn {
