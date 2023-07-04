@@ -1,4 +1,4 @@
-import articleSummarizer from "../assets/articleSummarizer.png";
+import articleSummarizer from "../../assets/articleSummarizer.png";
 
 const ProjectList = [
     {

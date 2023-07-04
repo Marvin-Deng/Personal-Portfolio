@@ -1,5 +1,5 @@
 import "./ProfileStyles.css"
-import IntroImg from "../assets/intro-bg.jpg"
+import IntroImg from "../../assets/intro-bg.jpg"
 import { Link } from "react-router-dom"
 
 const Profile = () => {
@@ -12,10 +12,10 @@ const Profile = () => {
             <p>Hi, I'm a developer</p>
             <h1>Marvin Deng</h1>
             <div>
-                <Link to="/project" className="btn">
+                <Link to="/projects" className="btn">
                     Projects
                 </Link>
-                <Link to="/tech" className="btn-light">
+                <Link to="/tech" className="btn btn-light">
                     Resume
                 </Link>
             </div>

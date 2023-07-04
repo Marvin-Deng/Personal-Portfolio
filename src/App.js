@@ -1,8 +1,8 @@
 import "./index.css";
-import Home from "./pages/Home";
-import Projects from "./Projects/Projects";
-import Technologies from "./pages/Technologies";
-import About from "./pages/About";
+import Home from "./pages/HomePage/Home";
+import Projects from "./pages/ProjectPage/Projects";
+import Technologies from "./pages/TechPage/Technologies";
+import About from "./pages/AboutPage/About";
 import { Route, Routes } from "react-router-dom";
 
 function App() {

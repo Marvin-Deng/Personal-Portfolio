@@ -40,8 +40,7 @@ u1 {
 }
 
 .btn:hover {
-  background: rgb(224, 221, 221);
-  color: black;
-  
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   transition:0.3s;
 }

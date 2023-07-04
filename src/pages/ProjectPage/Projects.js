@@ -1,7 +1,8 @@
-import Navbar from "../Navbar/Navbar";
+import Navbar from "../../components/Navbar/Navbar";
 import ProjectImg from "./ProjectImg"
-import Footer from "../Footer/Footer"
-import ProjectDisplay from "../ProjectCard/ProjectDisplay"
+import ProjectDisplay from "../../components/ProjectCard/ProjectDisplay"
+import Footer from "../../components/Footer/Footer"
+
 
 const Projects = () => {
   return (
