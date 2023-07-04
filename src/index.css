@@ -44,3 +44,35 @@ u1 {
   color: rgb(0, 0, 0);
   transition:0.3s;
 }
+
+/* Section Image and Text */
+.hero-img {
+  width: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  height: 60vh;
+  position: relative;
+}
+
+.hero-img h1 {
+  font-size: 2.4rem;
+}
+
+.hero-img p {
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.heading {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 640px) {
+  .hero-img h1 {
+      font-size: 2rem;
+  }
+}

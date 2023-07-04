@@ -3,7 +3,7 @@ import Footer from "../../components/Footer/Footer";
 
 const About = () => {
   return (
-    <div>
+    <div className="hero-img">
       <Navbar />
       <Footer />
     </div>
