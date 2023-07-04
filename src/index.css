@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -11,9 +11,9 @@ body {
   background: black
 }
 
-h1, 
-h4, 
-p, 
+h1,
+h4,
+p,
 a {
   color: white;
   text-decoration: none;
@@ -42,24 +42,7 @@ u1 {
 .btn:hover {
   background: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
-  transition:0.3s;
-}
-
-/* Section Image and Text */
-.hero-img {
-  width: 100%;
-  background: rgba(0, 0, 0, 0.5);
-  height: 60vh;
-  position: relative;
-}
-
-.hero-img h1 {
-  font-size: 2.4rem;
-}
-
-.hero-img p {
-  font-size: 1.4rem;
-  text-align: center;
+  transition: 0.3s;
 }
 
 .heading {
@@ -69,10 +52,4 @@ u1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-@media screen and (max-width: 640px) {
-  .hero-img h1 {
-      font-size: 2rem;
-  }
 }

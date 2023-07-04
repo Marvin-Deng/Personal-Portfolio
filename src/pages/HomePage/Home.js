@@ -1,5 +1,3 @@
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer"
 import "./HomeStyles.css"
 import IntroImg from "../../assets/intro-bg.jpg"
 import { Link } from "react-router-dom"
@@ -7,7 +5,6 @@ import { Link } from "react-router-dom"
 const Home = () => {
   return (
     <div> 
-      <Navbar /> 
       <div className="hero">
         <div className="mask">
             <img className="into-img" src={IntroImg} alt="IntroImg"/>
@@ -25,7 +22,6 @@ const Home = () => {
             </div>
         </div>
       </div>
-      <Footer />
     </div>
   )
 }

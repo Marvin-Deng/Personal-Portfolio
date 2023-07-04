@@ -1,11 +1,15 @@
-import Navbar from "../../components/Navbar/Navbar";
-import Footer from "../../components/Footer/Footer";
-
+import "./About.css"
 const About = () => {
   return (
-    <div className="hero-img">
-      <Navbar />
-      <Footer />
+    <div className="about-img">
+      <div className="heading">
+        <h1>
+          ABOUT ME
+        </h1>
+        <p>
+          Some of my most recent works
+        </p>
+      </div>
     </div>
   )
 }

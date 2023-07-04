@@ -1,14 +1,11 @@
-import Navbar from "../../components/Navbar/Navbar";
 import "./ProjectImgStyles.css"
 import ProjectDisplay from "../../components/ProjectCard/ProjectDisplay"
-import Footer from "../../components/Footer/Footer"
 
 
 const Projects = () => {
   return (
     <div>
-      <Navbar />
-      <div className="hero-img">
+      <div id="projectPage" className="hero-img">
         <div className="heading">
             <h1>
                 PROJECTS
@@ -19,7 +16,6 @@ const Projects = () => {
         </div>
       </div>
       <ProjectDisplay />
-      <Footer />
     </div>
   )
 }
