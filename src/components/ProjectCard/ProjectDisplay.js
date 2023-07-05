@@ -4,7 +4,7 @@ import ProjectCard from "./ProjectCard";
 
 const ProjectDisplay = () => {
   return (
-    <div className="project-card">
+    <div>
       <div className="project-container">
         {ProjectList.map((val, idx) => {
             return (

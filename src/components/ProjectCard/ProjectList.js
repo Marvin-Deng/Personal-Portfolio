@@ -5,7 +5,7 @@ const ProjectList = [
         imgSrc: articleSummarizer,
         title: "AI Aticle Generator",
         description: "Summize is an AI article summarizer",
-        stack: "",
+        stack: "React, Tailwind CSS, Reudx",
         view: "https://famous-torrone-676adb.netlify.app",
         code: "https://github.com/mdeng376/AI-Article-Summarizer",
     },
