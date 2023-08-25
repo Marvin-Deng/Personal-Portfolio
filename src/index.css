@@ -40,8 +40,8 @@ u1 {
 }
 
 .btn:hover {
-  background: rgb(255, 255, 255);
-  color: rgb(0, 0, 0);
+  background: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   transition: 0.3s;
 }
 
@@ -52,6 +52,7 @@ u1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  overflow-wrap: break-word; 
 }
 
 .bar {

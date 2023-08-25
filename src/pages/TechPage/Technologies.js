@@ -1,5 +1,5 @@
 import "./Technologies.css";
-import TechCard from "../../components/TechCard/TechCard";
+import TechDisplay from "../../components/TechCard/TechDisplay";
 
 const Technologies = () => {
   return (
@@ -15,7 +15,7 @@ const Technologies = () => {
           </p>
         </div>
       </div>
-      <TechCard />
+      <TechDisplay />
     </div>
   )
 }

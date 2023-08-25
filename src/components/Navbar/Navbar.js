@@ -26,16 +26,16 @@ const Navbar = () => {
 
         <u1 className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <Link to ="/">Home</Link>
+            <Link to = "/">Home</Link>
           </li>
           <li>
-            <Link to ="/projects">Projects</Link>
+            <Link to = "/projects">Projects</Link>
           </li>
           <li>
-            <Link to ="/tech">Technologies</Link>
+            <Link to = "/tech">Technologies</Link>
           </li>
           <li>
-            <Link to ="/about">About</Link>
+            <Link to = "/about">About</Link>
           </li>
         </u1>
         <div className="hamburger" onClick = {handleClick}>

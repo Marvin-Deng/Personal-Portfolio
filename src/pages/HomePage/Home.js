@@ -6,35 +6,31 @@ import Typewriter from "typewriter-effect";
 const Home = () => {
 
   return (
-    <div> 
-      <div className="hero">
-        <div className="mask">
-            <img className="into-img" src={IntroImg} alt="IntroImg"/>
-        </div>
-        <div className="content">
-            <p>
-              <Typewriter 
-                options={{
-                  autoStart: true, 
-                  loop: true,
-                  delay: 80,
-                  strings: [
-                    "Hi, I'm a Web Developer",
-                    "Hi, I'm a Problem Solver",
-                    "Hi, I'm a Tech Enthusiast",
-                  ]
-                }}
-              />
-            </p>
-            <h1>Marvin Deng</h1>
-            <div>
-                <Link to="/projects" className="btn">
-                    Projects
-                </Link>
-                <Link to="/tech" className="btn btn-light">
-                    Resume
-                </Link>
-            </div>
+    <div className="hero">
+      <div className="mask">
+        <img className="intro-img" src={IntroImg} alt="IntroImg" />
+      </div>
+      <div className="content">
+        <p>
+          <Typewriter
+            options={{
+              autoStart: true,
+              loop: true,
+              delay: 80,
+              strings: [
+                "Welcome to my Portfolio!"
+              ]
+            }}
+          />
+        </p>
+        <h1>Marvin Deng</h1>
+        <div>
+          <Link to="/projects" className="btn">
+            Projects
+          </Link>
+          <Link to="/about" className="btn btn-light">
+            About Me
+          </Link>
         </div>
       </div>
     </div>

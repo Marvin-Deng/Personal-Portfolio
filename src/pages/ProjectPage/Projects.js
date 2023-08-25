@@ -5,7 +5,7 @@ import ProjectDisplay from "../../components/ProjectCard/ProjectDisplay"
 const Projects = () => {
   return (
     <div>
-      <div id="projectPage" className="hero-img">
+      <div className="hero-img">
         <div className="heading">
             <h1>
                 PROJECTS

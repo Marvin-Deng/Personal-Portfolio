@@ -27,7 +27,7 @@
     font-size: 1.4rem;
     text-align: center;
     width: 1000px; 
-    word-wrap: break-word;
+    
 }
 
 @media screen and (max-width: 640px) {

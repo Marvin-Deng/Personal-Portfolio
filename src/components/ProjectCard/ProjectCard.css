@@ -1,28 +1,20 @@
-.project-heading {
-    text-align: center;
-    padding: 4rem 0 2 rem 0;
-}
-
 .project-container {
-    max-width: 1500px;
-    margin: auto;
+    max-width: 1300px;
     display: grid;
+    margin: auto;
     grid-template-columns: repeat(2, 1fr);
+    padding: 4rem 40px 7rem;
     grid-gap: 60px;
-    padding-bottom: 7rem;
+    align-items: flex-end;
 }
 
 .project-card {
-    padding: 1rem;
-}
-
-.project-img {
-    background: #1a1919;
-    padding: 1.5rem 1.5rem;
+    border: 1px solid #ffffff;
 }
 
 .project-img img{
     width: 100%;
+    height: 30%;
 }
 
 .project-title {
@@ -35,12 +27,14 @@
     padding-bottom: 1rem;
     font-size: 1.1rem;
     text-align: center;
+    padding: 0 3rem;
+    text-align: justify;
 }
 
 .project-btns {
     display: flex;
     justify-content: space-between;
-    padding: 0.5rem 4rem;
+    padding: 0.5rem 4rem 3rem;
 }
 
 .project-btns .btn{

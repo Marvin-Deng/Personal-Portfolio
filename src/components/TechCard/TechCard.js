@@ -2,26 +2,13 @@ import "./TechCard.css";
 
 import React from 'react'
 
-const TechCard = () => {
+const TechCard = (props) => {
     return (
-        <div className="tech-section">
-            <div className="card-container">
-                <div className="card">
-                    <h3>- Frontend -</h3>
-                    <span className="bar"></span>
-                    <p>- Experience with React.js -</p>
-                </div>
-                <div className="card">
-                    <h3>- Frontend -</h3>
-                    <span className="bar"></span>
-                    <p>- Experience with React.js -</p>
-                </div>
-                <div className="card">
-                    <h3>- Frontend -</h3>
-                    <span className="bar"></span>
-                    <p>- Experience with React.js -</p>
-                </div>
-            </div>
+        <div className="card">
+            <h3>{props.title}</h3>
+            {props.icon}
+            <span className="bar"></span>
+            <p>{props.description}</p>
         </div>
     )
 }

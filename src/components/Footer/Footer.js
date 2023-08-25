@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer">
         <div className="footer-container">
             <div className="left">
-            <div className="email">
+                <div className="email">
                     <h4>
                         <a href="mailto:marvindeng@g.ucla.edu">
                             <FaMailBulk 
