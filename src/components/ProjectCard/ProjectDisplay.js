@@ -13,6 +13,7 @@ const ProjectDisplay = () => {
                     imgSrc={val.imgSrc}
                     title={val.title}
                     description={val.description}
+                    stack = {val.stack}
                     view={val.view}
                     code={val.code}
                 />

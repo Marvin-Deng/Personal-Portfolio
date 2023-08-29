@@ -10,8 +10,14 @@ const ProjectCards = (props) => {
       <h2 className="project-title"> {props.title} </h2>
           <span className="bar"></span>
           <div className="project-details">
-            <p> {props.description} </p>
+            <p className="description"> {props.description} </p>
             <span className="bar"></span>
+            <h3>Stack</h3>
+            <div className="stack-items-container">
+              {props.stack.map((item, index) => (
+                  <p key={index} className="stack-item">{item}</p>
+              ))}
+            </div>
             <div className="project-btns">
               <NavLink to={props.view} className="btn"> View </NavLink>
               <NavLink to={props.code} className="btn"> Code </NavLink>

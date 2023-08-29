@@ -23,12 +23,30 @@
     text-align: center;
 }
 
-.project-details p {
+.description {
     padding-bottom: 1rem;
     font-size: 1.1rem;
-    text-align: center;
     padding: 0 3rem;
     text-align: justify;
+}
+
+.project-details h3 {
+    color: white;
+    text-align: center;
+}
+
+.stack-items-container {
+    display: flex; 
+    flex-wrap: wrap;
+    gap: 30px;
+    padding: 1.5rem 0;
+    justify-content: center; 
+    align-items: center;
+}
+
+.stack-items-container p {
+    padding-bottom: 1rem;
+    font-size: 1.1rem;
 }
 
 .project-btns {
