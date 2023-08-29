@@ -4,12 +4,12 @@ const TechList = [
     {
         title: "- Frontend -",
         icon: <FaReact size={40}/>,
-        description: "Experience with React, Vue, and Tailwind CSS",
+        description: "Experience with React.js, Vue.js, and Tailwind CSS",
     },
     {
         title: "- Backend -",
         icon: <FaNodeJs size={40}/>,
-        description: "Experience with MongoDB, Node.js, and Express.js",
+        description: "Experience with MongoDB, Node.js, Express.js, and Flask",
     },
     {
         title: "- Mobile Development -",
@@ -19,7 +19,7 @@ const TechList = [
     {
         title: "- Machine Learning -",
         icon: <FaPython size={40}/>,
-        description: "Experience with Python machine learning libraries such as Skitlearn",
+        description: "Experience with Python Notebooks, ML Libraries, and Data Pipelines",
     },
     {
         title: "- UI/UX -",

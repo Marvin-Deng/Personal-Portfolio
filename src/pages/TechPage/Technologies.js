@@ -10,10 +10,11 @@ const Technologies = () => {
             TOOLS AND FRAMEWORKS
           </h1>
           <p>
-            Throughout my classes and personal projects, I've used a variety of different tools and
+            Throughout my classes, personal projects, and internships, I've used a variety of different tools and
             frameworks.
           </p>
         </div>
+        
       </div>
       <TechDisplay />
     </div>

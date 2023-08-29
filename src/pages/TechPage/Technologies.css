@@ -26,8 +26,6 @@
 .tech-img p {
     font-size: 1.4rem;
     text-align: center;
-    width: 1000px; 
-    
 }
 
 @media screen and (max-width: 640px) {

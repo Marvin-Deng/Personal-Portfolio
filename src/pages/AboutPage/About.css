@@ -26,10 +26,15 @@
 .about-img p {
     font-size: 1.4rem;
     text-align: center;
+    text-align: justify;
+    margin: 0 20vw;
 }
 
 @media screen and (max-width: 640px) {
     .about-img h1 {
         font-size: 2rem;
+    }
+    .about-img p {
+        font-size: 1.2rem;
     }
 }
