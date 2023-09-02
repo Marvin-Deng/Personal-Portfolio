@@ -4,12 +4,12 @@ const TechList = [
     {
         title: "- Frontend -",
         icon: <FaReact size={40}/>,
-        description: "Experience with React.js, Vue.js, and Tailwind CSS",
+        description: "Experience with React.js and Vue.js",
     },
     {
         title: "- Backend -",
         icon: <FaNodeJs size={40}/>,
-        description: "Experience with MongoDB, Node.js, Express.js, and Flask",
+        description: "Experience with MongoDB, Node.js, Express.js, Flask, and SQL",
     },
     {
         title: "- Mobile Development -",

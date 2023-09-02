@@ -14,7 +14,6 @@ const Technologies = () => {
             frameworks.
           </p>
         </div>
-        
       </div>
       <TechDisplay />
     </div>
