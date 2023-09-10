@@ -6,6 +6,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 const Navbar = () => {
   const [click, setClick] = useState(false);
   const handleClick = () => setClick(!click);
+  const closeMenu = () => setClick(false);
 
   const[ color, setColor ] = useState(false);
   const changeColor = () => {
@@ -26,27 +27,26 @@ const Navbar = () => {
 
         <u1 className={click ? "nav-menu active" : "nav-menu"}>
           <li>
-            <Link to = "/">Home</Link>
+            <Link to = "/" onClick={closeMenu}>Home</Link>
           </li>
           <li>
-            <Link to = "/projects">Projects</Link>
+            <Link to = "/projects" onClick={closeMenu}>Projects</Link>
           </li>
           <li>
-            <Link to = "/tech">Technologies</Link>
+            <Link to = "/tech" onClick={closeMenu}>Technologies</Link>
           </li>
           <li>
-            <Link to = "/about">About</Link>
+            <Link to = "/about" onClick={closeMenu}>About</Link>
           </li>
         </u1>
-        <div className="hamburger" onClick = {handleClick}>
+        <div className="bars" onClick = {handleClick}>
           {click ? (
-            <FaTimes size={40} style={{color: "white"}} />
+            <FaTimes size={50} style={{color: "white"}} />
           ) : (
-            <FaBars size={40} style={{color: "white"}} />
+            <FaBars size={50} style={{color: "white"}} />
           )}
         </div>
     </div>
-    
   );
 };
 

@@ -1,4 +1,5 @@
 import Timeline from "../../components/Timeline/Timeline"
+import Footer from "../../components/Footer/Footer";
 import "./About.css"
 
 const About = () => {
@@ -15,6 +16,7 @@ const About = () => {
         </div>
       </div>
       <Timeline />
+      <Footer />
     </div>
   )
 }

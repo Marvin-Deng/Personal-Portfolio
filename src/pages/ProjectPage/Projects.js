@@ -1,6 +1,6 @@
 import "./ProjectImgStyles.css"
 import ProjectDisplay from "../../components/ProjectCard/ProjectDisplay"
-
+import Footer from "../../components/Footer/Footer";
 
 const Projects = () => {
   return (
@@ -16,6 +16,7 @@ const Projects = () => {
         </div>
       </div>
       <ProjectDisplay />
+      <Footer />
     </div>
   )
 }

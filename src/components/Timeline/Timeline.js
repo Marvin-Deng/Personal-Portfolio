@@ -9,10 +9,16 @@ const Timeline = () => {
       {timelineElements.map((element, index) => (
         <VerticalTimelineElement
           key={index}
-          contentStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+          contentStyle={{ 
+            background: 'rgb(0, 0, 0, 0)', 
+            color: '#fff' 
+          }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}
           date={element.date}
-          iconStyle={{ background: 'rgb(0, 0, 0)', color: '#fff' }}
+          iconStyle={{ 
+            background: 'rgb(0, 0, 0)', 
+            color: '#fff' 
+          }}
           icon={element.icon}
         >
           <h3>{element.title}</h3>

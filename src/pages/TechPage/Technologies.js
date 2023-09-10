@@ -1,5 +1,6 @@
 import "./Technologies.css";
 import TechDisplay from "../../components/TechCard/TechDisplay";
+import Footer from "../../components/Footer/Footer";
 
 const Technologies = () => {
   return (
@@ -16,6 +17,7 @@ const Technologies = () => {
         </div>
       </div>
       <TechDisplay />
+      <Footer />
     </div>
   )
 }

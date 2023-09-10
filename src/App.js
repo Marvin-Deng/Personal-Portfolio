@@ -5,7 +5,6 @@ import Home from "./pages/HomePage/Home";
 import Projects from "./pages/ProjectPage/Projects";
 import Technologies from "./pages/TechPage/Technologies";
 import About from "./pages/AboutPage/About";
-import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/tech" element={<Technologies />} />
         <Route path="/about" element={<About />} />
       </Routes>
-      <Footer />
     </>
   );
 }

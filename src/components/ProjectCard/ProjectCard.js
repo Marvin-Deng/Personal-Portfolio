@@ -10,7 +10,9 @@ const ProjectCards = (props) => {
       <h2 className="project-title"> {props.title} </h2>
           <span className="bar"></span>
           <div className="project-details">
-            <p className="description"> {props.description} </p>
+            <p className="description"> 
+              {props.description} 
+            </p>
             <span className="bar"></span>
             <h3>Stack</h3>
             <div className="stack-items-container">

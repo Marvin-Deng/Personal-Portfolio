@@ -1,5 +1,5 @@
 import "./HomeStyles.css"
-import IntroImg from "../../assets/intro-bg.jpg"
+import IntroImg from "../../assets/sunset.jpg"
 import { Link } from "react-router-dom"
 import Typewriter from "typewriter-effect";
 
@@ -29,7 +29,7 @@ const Home = () => {
             Projects
           </Link>
           <Link to="/about" className="btn btn-light">
-            About Me
+            About
           </Link>
         </div>
       </div>

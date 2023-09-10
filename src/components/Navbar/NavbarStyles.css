@@ -27,11 +27,11 @@
     font-weight: 500;
 }
 
-.hamburger {
+.bars {
     display: none;
 }
 
-@media screen and (max-width: 1040px) {
+@media screen and (max-width: 900px) {
     .nav-menu {
         flex-direction: column;
         justify-content: center;
@@ -58,7 +58,7 @@
         font-size:2rem;
     }
 
-    .hamburger {
+    .bars {
         display: initial;
     }
 }

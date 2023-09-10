@@ -3,7 +3,7 @@
     display: grid;
     margin: auto;
     grid-template-columns: repeat(2, 1fr);
-    padding: 4rem 40px 7rem;
+    padding: 4rem 40px;
     grid-gap: 60px;
     align-items: flex-end;
 }
@@ -59,8 +59,7 @@
     padding: 0.5rem 1.5rem;
 }
 
-
-@media screen and (max-width: 740px) {
+@media screen and (max-width: 900px) {
     .project-container {
         max-width: 90%;
         margin: auto;
