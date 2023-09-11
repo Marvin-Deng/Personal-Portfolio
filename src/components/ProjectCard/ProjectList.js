@@ -1,5 +1,6 @@
-import pose from "../../assets/pose.png";
-import articleSummarizer from "../../assets/sumz.png";
+import pose from "../../assets/pose.avif";
+import articleSummarizer from "../../assets/sumz.avif";
+import creator from "../../assets/creator.avif";
 
 const ProjectList = [
     {
@@ -19,9 +20,9 @@ const ProjectList = [
         code: "https://github.com/mdeng376/AI-Article-Summarizer",
     },
     {
-        imgSrc: articleSummarizer,
+        imgSrc: creator,
         title: "Creatorverse",
-        description: "CreatorVerse is a web application designed to empower users to showcase and curate their favorite content creators from various online platforms. With its user-friendly interface, CreatorVerse makes it easy for users to create, edit, and delete profiles of their favorite content creators. Users can create detailed profiles for their favorite content creators, which include name, bio, profile picture, and social media links. Users can easily edit existing profiles to keep information up-to-date or delete profiles if their preferences change. By providing a platform for sharing and discovering talent, Creatorverse enhances the overall content consumption experience and helps creators gain more recognition for their work.",
+        description: "CreatorVerse is a web application designed to empower users to showcase and curate their favorite content creators from various online platforms. With its user-friendly interface, CreatorVerse makes it easy for users to create, edit, and delete profiles of their favorite content creators.  Users can easily edit existing profiles to keep information up-to-date or delete profiles if their preferences change. By providing a platform for sharing and discovering talent, Creatorverse enhances the overall content consumption experience and helps creators gain more recognition for their work.",
         stack: ['Vite.js', 'Supabase', 'Pico CSS'],
         view: "https://github.com/mdeng376/Creatorverse",
         code: "https://github.com/mdeng376/Creatorverse",

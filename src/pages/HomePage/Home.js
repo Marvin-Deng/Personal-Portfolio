@@ -24,6 +24,7 @@ const Home = () => {
           />
         </p>
         <h1>Marvin Deng</h1>
+        
         <div>
           <Link to="/projects" className="btn">
             Projects

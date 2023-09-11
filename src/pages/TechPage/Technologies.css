@@ -7,7 +7,7 @@
 
 .tech-img::before {
     content: "";
-    background: url("../../assets/tech.png");
+    background: url("../../assets/design.avif");
     background-size: cover;
     background-position: center top;
     height: 100%;

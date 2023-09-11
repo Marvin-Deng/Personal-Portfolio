@@ -7,7 +7,7 @@ import { FaGlobeAmericas, FaBrain } from "react-icons/fa";
 export const timelineElements = [
     {
         title: 'Pullscription',
-        subtitle: 'Backend Software Engineer Intern',
+        subtitle: 'Backend Software Engineering Intern',
         date: 'June 2023',
         icon: <WorkIcon />,
         content: 'Designed and developed a RESTful API in Node.js and Express.js and implemented endpoints with SQL queries',

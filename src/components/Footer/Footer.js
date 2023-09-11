@@ -41,14 +41,12 @@ const Footer = () => {
                                 style={{ color: "white", marginRight: "1rem" }}
                             />
                         </a>
-
                         <a href="https://github.com/Marvin-Deng">
                             <FaGithub
                                 size={32}
                                 style={{ color: "white", marginRight: "1rem" }}
                             />
                         </a>
-
                         <a href="https://www.instagram.com/dengit_marvin/">
                             <FaInstagram
                                 size={32}

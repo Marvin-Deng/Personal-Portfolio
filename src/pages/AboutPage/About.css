@@ -7,7 +7,7 @@
 
 .about-img::before {
     content: "";
-    background: url("../../assets/computer.png");
+    background: url("../../assets/computer.avif");
     background-size: cover;
     background-position: center top;
     height: 100%;
