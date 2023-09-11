@@ -6,7 +6,7 @@ const ProjectList = [
     {
         imgSrc: pose,
         title: "GaitDiagnose",
-        description: "As a member of the Global Alliance for Medical Innovation (GAMI), I collaborated closely with doctors and professors to cultivate machine learning models aimed at detecting Parkinson's Disease through the analysis of patients' walking patterns. GaitDiagnose is an iOS application which offers a cost effective and accessible alternative to neurodegenerative disease diagnosis. The app leverages Google’s computer vision library, Mediapipe, to extract essential gait features from video data, enabling real-time diagnosis.",
+        description: "As a member of the Global Alliance for Medical Innovation (GAMI), I collaborated closely with doctors and professors to cultivate machine learning models aimed at detecting Parkinson's Disease through the analysis of patients' walking patterns. GaitDiagnose is an iOS application which offers a cost effective and accessible solution to neurodegenerative disease diagnosis. The app leverages Google’s ML library, Mediapipe, to extract essential gait features from video data, enabling real-time diagnosis.",
         stack: ["Mediapipe", "Jupyter Notebook", "SwiftUI"],
         view: "https://github.com/mdeng376/Pose-Estimation",
         code: "https://github.com/mdeng376/Pose-Estimation",
