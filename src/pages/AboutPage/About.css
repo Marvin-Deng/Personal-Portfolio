@@ -3,11 +3,13 @@
     background: rgba(0, 0, 0, 0.5);
     height: 60vh;
     position: relative;
+    opacity: 1; /* Initially hide the image */
+    transition: opacity 0.3s;
 }
 
 .about-img::before {
     content: "";
-    background: url("../../assets/computer.avif");
+    background: url("../../assets/computer.png");
     background-size: cover;
     background-position: center top;
     height: 100%;
@@ -16,6 +18,10 @@
     top: 0;
     left: 0;
     z-index: -1;
+}
+
+.about-img img.in-view {
+    opacity: 1;
 }
 
 .about-img h1 {
@@ -30,11 +36,13 @@
     margin: 0 20vw;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 800px) {
     .about-img h1 {
-        font-size: 2rem;
+        padding-top: 1rem;
+        font-size: 1.8rem;
     }
     .about-img p {
-        font-size: 1.2rem;
+        font-size: 1rem;
+        margin: 0 10vw;
     }
 }

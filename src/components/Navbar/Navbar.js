@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
       </div>
 
-      <u1 className={click ? "nav-menu active" : "nav-menu"}>
+      <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
           <Link to="/" onClick={closeMenu}>Home</Link>
         </li>
@@ -55,12 +55,12 @@ const Navbar = () => {
         <li>
           <Link to="/about" onClick={closeMenu}>About</Link>
         </li>
-      </u1>
+      </ul>
       <div className="bars" onClick={handleClick}>
         {click ? (
-          <FaTimes size={50} style={{ color: "white" }} />
+          <FaTimes size={45} style={{ color: "white" }} />
         ) : (
-          <FaBars size={50} style={{ color: "white" }} />
+          <FaBars size={45} style={{ color: "white" }} />
         )}
       </div>
     </div>

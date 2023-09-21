@@ -1,7 +1,7 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import 'react-vertical-timeline-component/style.min.css';
-import { timelineElements } from "./TimelineElements"; 
+import { timelineElements } from "./TimelineElements";
 
 const Timeline = () => {
   return (
@@ -9,15 +9,15 @@ const Timeline = () => {
       {timelineElements.map((element, index) => (
         <VerticalTimelineElement
           key={index}
-          contentStyle={{ 
-            background: 'rgb(0, 0, 0, 0)', 
-            color: '#fff' 
+          contentStyle={{
+            background: 'rgb(0, 0, 0, 0)',
+            color: '#fff'
           }}
           contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}
           date={element.date}
-          iconStyle={{ 
-            background: 'rgb(0, 0, 0)', 
-            color: '#fff' 
+          iconStyle={{
+            background: 'linear-gradient(45deg, #002366, #ff6600)',
+            color: '#fff'
           }}
           icon={element.icon}
         >

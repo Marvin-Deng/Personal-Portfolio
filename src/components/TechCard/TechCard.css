@@ -2,7 +2,7 @@
     max-width: 1200px;
     margin: auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 40px;
     padding: 4rem 40px;
 }
@@ -12,6 +12,13 @@
     color: #eee;
     text-align: center;
     padding: 2rem;
+    transform: translateY(20px); /* Optional: Add a subtle upward movement */
+    transition: transform 0.5s ease; /* Add transitions for smooth fading and movement */
+}
+
+/* Apply the animation when the card enters the viewport */
+.card.in-viewport {
+    transform: translateY(-20px); /* Optional: Reset the position */
 }
 
 .card h3 {

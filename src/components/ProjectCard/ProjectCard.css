@@ -18,7 +18,11 @@
 }
 
 .project-title {
-    color: white;
+    background: linear-gradient(to right,#ff009d, #00d9ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 2rem;
     padding: 1rem 0;
     text-align: center;
 }
@@ -52,6 +56,7 @@
 .project-btns {
     display: flex;
     justify-content: space-between;
+    gap: 30px;
     padding: 0.5rem 4rem 3rem;
 }
 
@@ -64,5 +69,14 @@
         max-width: 90%;
         margin: auto;
         grid-template-columns: 1fr;
+    }
+
+    .description {
+        padding: 0 2.2rem;
+    }
+
+    .stack-items-container p {
+        padding: 0 2.2rem;
+        font-size: 1.1rem;
     }
 }

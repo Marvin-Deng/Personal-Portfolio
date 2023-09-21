@@ -16,6 +16,7 @@
 
 .nav-menu {
     display: flex;
+    list-style: none;
 }
 
 .nav-menu li {
@@ -59,11 +60,20 @@
 .social-icons {
     display: flex;
     gap: 1rem;
+    transition: transform 0.4s ease;
 }
 
-.social-icons a:hover {
-    transform: scale(1.1);
+.social-icons a {
+    transition: transform 0.4s ease;
 }
+
+.social a:hover {
+    transform: scale(1.2);
+}
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
 
 @media screen and (max-width: 900px) {
     .nav-menu {
