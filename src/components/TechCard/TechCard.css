@@ -12,13 +12,12 @@
     color: #eee;
     text-align: center;
     padding: 2rem;
-    transform: translateY(20px); /* Optional: Add a subtle upward movement */
-    transition: transform 0.5s ease; /* Add transitions for smooth fading and movement */
+    transform: translateY(20px); 
+    transition: transform 0.5s ease; 
 }
 
-/* Apply the animation when the card enters the viewport */
 .card.in-viewport {
-    transform: translateY(-20px); /* Optional: Reset the position */
+    transform: translateY(-20px);
 }
 
 .card h3 {

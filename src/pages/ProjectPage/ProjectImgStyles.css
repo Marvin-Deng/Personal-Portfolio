@@ -7,7 +7,7 @@
 
 .hero-img::before {
   content: "";
-  background: url("../../assets/code.webp");
+  background: url("../../assets/code.png");
   background-size: cover;
   background-position: center top;
   height: 100%;
@@ -27,10 +27,4 @@
 .hero-img p {
   font-size: 1.4rem;
   text-align: center;
-}
-
-@media screen and (max-width: 640px) {
-  .hero-img h1 {
-    font-size: 2rem;
-  }
 }

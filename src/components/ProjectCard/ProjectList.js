@@ -1,6 +1,6 @@
-import pose from "../../assets/pose.avif";
-import articleSummarizer from "../../assets/sumz.avif";
-import creator from "../../assets/creator.avif";
+import pose from "../../assets/pose.png";
+import articleSummarizer from "../../assets/sumz.png";
+import creator from "../../assets/creator.png";
 
 const ProjectList = [
     {

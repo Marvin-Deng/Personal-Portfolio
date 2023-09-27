@@ -11,7 +11,7 @@
 
 .tech-img::before {
     content: "";
-    background: url("../../assets/ipad.jpg");
+    background: url("../../assets/ipad.png");
     background-size: cover;
     background-position: center top;
     height: 100%;

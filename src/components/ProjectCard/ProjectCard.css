@@ -3,9 +3,8 @@
     display: grid;
     margin: auto;
     grid-template-columns: repeat(2, 1fr);
-    padding: 4rem 40px;
-    grid-gap: 60px;
-    align-items: flex-end;
+    padding: 4rem;
+    gap: 60px;
 }
 
 .project-card {
@@ -56,8 +55,8 @@
 .project-btns {
     display: flex;
     justify-content: space-between;
-    gap: 30px;
     padding: 0.5rem 4rem 3rem;
+    align-items: center;
 }
 
 .project-btns .btn{
@@ -66,17 +65,23 @@
 
 @media screen and (max-width: 900px) {
     .project-container {
-        max-width: 90%;
-        margin: auto;
-        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .project-btns {
+        justify-content: center;
+        gap: 50px;
     }
 
     .description {
-        padding: 0 2.2rem;
+        padding: 0 2rem;
     }
 
     .stack-items-container p {
-        padding: 0 2.2rem;
+        padding: 0 2rem;
         font-size: 1.1rem;
     }
 }
