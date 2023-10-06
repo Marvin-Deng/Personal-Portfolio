@@ -3,7 +3,6 @@
     background: rgba(0, 0, 0, 0.5);
     height: 60vh;
     position: relative;
-    opacity: 1; /* Initially hide the image */
     transition: opacity 0.3s;
 }
 
@@ -18,10 +17,6 @@
     top: 0;
     left: 0;
     z-index: -1;
-}
-
-.about-img img.in-view {
-    opacity: 1;
 }
 
 .about-img h1 {

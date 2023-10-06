@@ -1,8 +1,17 @@
 import pose from "../../assets/pose.png";
 import articleSummarizer from "../../assets/sumz.png";
 import creator from "../../assets/creator.png";
+import news from "../../assets/news.png";
 
 const ProjectList = [
+    {
+        imgSrc: news,
+        title: "Sentiment News",
+        description: "Sentiment News is a web app dedicated to exploring the relationship between financial news article sentiment and the price action of related stocks. The goal of this project was to quantify how positive or negative sentiment in news articles can influence stock price fluctuations. This app creates insights into this phenomenon by analyzing news article sentiment and correlating it with stock price changes.",        
+        stack: ["Next.js", "Fast API", "SQLite"],
+        view: "https://github.com/Marvin-Deng/Finance-News-Frontend",
+        code: "https://github.com/Marvin-Deng/Finance-News-Frontend",
+    },
     {
         imgSrc: pose,
         title: "GaitDiagnose",
