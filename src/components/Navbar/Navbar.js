@@ -3,6 +3,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
+import siteMetadata from "../../data/siteMetadata"
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -27,13 +28,13 @@ const Navbar = () => {
           <h1>Portfolio</h1>
         </Link>
         <div className="social-icons">
-          <a href="https://github.com/Marvin-Deng">
+          <a href={siteMetadata.github}>
             <FaGithub
               size={35}
               style={{ color: "white", marginRight: "1rem" }}
             />
           </a>
-          <a href="https://www.linkedin.com/in/marvin-deng/">
+          <a href={siteMetadata.linkedin}>
             <FaLinkedin
               size={35}
               style={{ color: "white", marginRight: "1rem" }}

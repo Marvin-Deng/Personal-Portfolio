@@ -1,6 +1,7 @@
 import "./Technologies.css";
 import TechDisplay from "../../components/TechCard/TechDisplay";
 import Footer from "../../components/Footer/Footer";
+import siteMetadata from "../../data/siteMetadata";
 
 const Technologies = () => {
   return (
@@ -8,11 +9,10 @@ const Technologies = () => {
       <div className="tech-img">
         <div className="heading">
           <h1>
-            TOOLS AND FRAMEWORKS
+            {siteMetadata.techHeader}
           </h1>
           <p>
-            Throughout my classes, personal projects, and internships, I've used a variety of different tools and
-            frameworks.
+            {siteMetadata.aboutTech}
           </p>
         </div>
       </div>

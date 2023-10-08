@@ -6,6 +6,13 @@ import { FaGlobeAmericas, FaBrain } from "react-icons/fa";
 
 export const timelineElements = [
     {
+        title: 'Codepath WEB103',
+        subtitle: 'Advanced Web Development',
+        date: 'September 2023',
+        icon: <SchoolIcon />,
+        content: 'Co-led a team of 6 students to develop full-stack web applications',
+    },
+    {
         title: 'Pullscription',
         subtitle: 'Backend Software Engineering Intern',
         date: 'June 2023',

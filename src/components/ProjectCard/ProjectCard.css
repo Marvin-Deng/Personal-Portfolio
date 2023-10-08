@@ -71,11 +71,6 @@
         padding-right: 20px;
     }
 
-    .project-btns {
-        justify-content: center;
-        gap: 50px;
-    }
-
     .description {
         padding: 0 2rem;
     }

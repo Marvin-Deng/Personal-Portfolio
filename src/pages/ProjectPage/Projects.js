@@ -1,6 +1,7 @@
 import "./ProjectImgStyles.css"
 import ProjectDisplay from "../../components/ProjectCard/ProjectDisplay"
 import Footer from "../../components/Footer/Footer";
+import siteMetadata from "../../data/siteMetadata";
 
 const Projects = () => {
   return (
@@ -8,10 +9,10 @@ const Projects = () => {
       <div className="hero-img">
         <div className="heading">
             <h1>
-                PROJECTS
+                {siteMetadata.projectsHeader}
             </h1>
             <p>
-                Some of my most recent works
+                {siteMetadata.aboutProjects}
             </p>
         </div>
       </div>

@@ -1,5 +1,6 @@
 import "./FooterStyles.css"
 import { FaPhone, FaMailBulk, FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
+import siteMetadata from "../../data/siteMetadata"
 
 const Footer = () => {
     return (
@@ -15,7 +16,7 @@ const Footer = () => {
                         <div>
                             <h4 className="contact">
                                 <a href="tel:925-998-0791">
-                                    925-998-0791
+                                    {siteMetadata.phoneNumber}
                                 </a>
                             </h4>
                         </div>
@@ -27,7 +28,7 @@ const Footer = () => {
                         </h4>
                         <h4 className="contact">
                             <a href="mailto:marvindeng@g.ucla.edu">
-                                marvindeng@g.ucla.edu
+                                {siteMetadata.email}
                             </a>
                         </h4>
                     </div>
@@ -36,13 +37,13 @@ const Footer = () => {
                             Social
                         </h4>
                         <div className="social">
-                            <a href="https://www.linkedin.com/in/marvin-deng/">
+                            <a href={siteMetadata.linkedin}>
                                 <FaLinkedin className="social-icon" />
                             </a>
-                            <a href="https://github.com/Marvin-Deng">
+                            <a href={siteMetadata.github}>
                                 <FaGithub className="social-icon" />
                             </a>
-                            <a href="https://www.instagram.com/dengit_marvin/">
+                            <a href={siteMetadata.instagram}>
                                 <FaInstagram className="social-icon" />
                             </a>
                         </div>

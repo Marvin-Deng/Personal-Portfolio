@@ -12,7 +12,7 @@ const TechDisplay = () => {
                             key={idx}
                             title={val.title}
                             icon={val.icon}
-                            description={val.description}
+                            description = {val.description}
                         />
                     )
                 })}
