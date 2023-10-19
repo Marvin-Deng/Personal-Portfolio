@@ -1,30 +1,35 @@
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
-// import GlobeIcon from '@mui/icons-material/Public';
-// import BrainIcon from '@mui/icons-material/Psychology';
-import { FaGlobeAmericas, FaBrain } from "react-icons/fa";
+import { FaGlobeAmericas, FaBrain, FaNewspaper } from "react-icons/fa";
 
 export const timelineElements = [
+    {
+        title: 'Daily Bruin Newspaper',
+        subtitle: 'Software Engineering Intern',
+        date: 'October 2023',
+        icon: <FaNewspaper />,
+        content: 'Played a key role in the development and maintenance of external websites for the Daily Bruin using React and Django',
+    },
     {
         title: 'Codepath WEB103',
         subtitle: 'Advanced Web Development',
         date: 'September 2023',
         icon: <SchoolIcon />,
-        content: 'Co-led a team of 6 students to develop full-stack web applications',
+        content: 'Developed full-stack web applications using React and PostgreSQL and learned from experienced engineers',
     },
     {
         title: 'Pullscription',
-        subtitle: 'Backend Software Engineering Intern',
+        subtitle: 'Software Engineering Intern',
         date: 'June 2023',
         icon: <WorkIcon />,
-        content: 'Designed and developed a RESTful API in Node.js and Express.js and implemented endpoints with SQL queries',
+        content: 'Designed and developed RESTful APIs on a Node.js and Express.js backend and implemented endpoints using TypeScript and SQL queries',
     },
     {
         title: 'Global Alliance for Medical Innovation',
-        subtitle: 'Software Engineering Intern',
+        subtitle: 'Software Development Intern',
         date: 'May 2023',
         icon: <FaGlobeAmericas />,
-        content: 'Extracted and calculated gait features from pose estimation video data for use in neurodegenerative disease diagnosis',
+        content: 'Used Python and computer vision models to calculate gait features from pose estimation video data for use in neurodegenerative disease diagnosis',
     },
     {
         title: 'Association of Computing Machinery (ACM AI)',
