@@ -9,7 +9,7 @@ const TechList = [
     {
         title: "- Backend -",
         icon: <FaNodeJs size={40}/>,
-        description: 'Experience with various backend architectures and servers'
+        description: 'Experience with various backend arcitectures and servers'
     },
     {
         title: "- Mobile Development -",
@@ -19,7 +19,7 @@ const TechList = [
     {
         title: "- Machine Learning -",
         icon: <FaPython size={40}/>,
-        description: 'Experience with building neural networks, machine learning models, and hyperparameter tuning',
+        description: 'Experience with building neural networks, machien learning models, and hyperparamter tuning',
     }
 ]
 
