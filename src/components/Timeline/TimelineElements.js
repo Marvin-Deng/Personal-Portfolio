@@ -1,7 +1,5 @@
-import SchoolIcon from '@mui/icons-material/School';
-import WorkIcon from '@mui/icons-material/Work';
-// import GlobeIcon from '@mui/icons-material/Public';
-// import BrainIcon from '@mui/icons-material/Psychology';
+import SchoolIcon from "@mui/icons-material/School";
+import WorkIcon from "@mui/icons-material/Work";
 import { FaGlobeAmericas, FaBrain } from "react-icons/fa";
 
 export const timelineElements = [
