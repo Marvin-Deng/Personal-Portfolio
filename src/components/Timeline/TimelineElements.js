@@ -4,11 +4,18 @@ import { FaGlobeAmericas, FaBrain, FaNewspaper } from "react-icons/fa";
 
 export const timelineElements = [
     {
+        title: 'DevX',
+        subtitle: 'Software Developer',
+        date: 'October 2023',
+        icon: <WorkIcon />,
+        content: 'Helped to develop Digityle, a fashion recommendation app which uses generative AI models',
+    },
+    {
         title: 'Daily Bruin Newspaper',
         subtitle: 'Software Engineering Intern',
         date: 'October 2023',
         icon: <FaNewspaper />,
-        content: 'Played a key role in the development and maintenance of external websites for the Daily Bruin using React and Django',
+        content: 'Played a key role in the development and maintenance of external websites for the Daily Bruin using React',
     },
     {
         title: 'Codepath WEB103',

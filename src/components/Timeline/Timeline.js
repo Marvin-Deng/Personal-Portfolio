@@ -23,7 +23,7 @@ const Timeline = () => {
         >
           <h3>{element.title}</h3>
           <h4>{element.subtitle}</h4>
-          <p style = {{fontSize: '18px'}}>{element.content}</p>
+          <p style = {{fontSize: '17px'}}>{element.content}</p>
         </VerticalTimelineElement>
       ))}
     </VerticalTimeline>
