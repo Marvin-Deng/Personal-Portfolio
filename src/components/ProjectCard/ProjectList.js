@@ -7,15 +7,6 @@ import study from "../../assets/study.png";
 
 const ProjectList = [
   {
-    imgSrc: taskbruin,
-    title: "TaskBruin",
-    description:
-      "TaskBruin is a web application for UCLA students that serves as a centralized hub where a service is listed in exchange for meal swipes. Possible services that can be uploaded include laundry services, arrangements for carpooling or sharing transportation, and food delivery from dining halls. Users are able to create and delete their own tasks, accept and un-accept tasks that other users have created, and view a list of tasks they have created and accepted.",
-    stack: ["Next.js", "Tailwind CSS", "PostgreSQL"],
-    view: "https://taskbruin.vercel.app/",
-    code: "https://github.com/xalbd/taskbruin",
-  },
-  {
     imgSrc: news,
     title: "Sentiment News",
     description:
@@ -25,6 +16,15 @@ const ProjectList = [
     code: "https://github.com/Marvin-Deng/Sentiment-News",
   },
   {
+    imgSrc: taskbruin,
+    title: "TaskBruin",
+    description:
+      "TaskBruin is a web application for UCLA students that serves as a centralized hub where a service is listed in exchange for meal swipes. Possible services that can be uploaded include laundry services, arrangements for carpooling or sharing transportation, and food delivery from dining halls. Users are able to create and delete their own tasks, accept and un-accept tasks that other users have created, and view a list of tasks they have created and accepted.",
+    stack: ["Next.js", "Tailwind CSS", "PostgreSQL"],
+    view: "https://taskbruin.vercel.app/",
+    code: "https://github.com/Marvin-Deng/TaskBruin",
+  },
+  {
     imgSrc: pose,
     title: "GaitDiagnose",
     description:
@@ -32,15 +32,6 @@ const ProjectList = [
     stack: ["Python", "Mediapipe", "Jupyter Notebook"],
     view: "https://github.com/mdeng376/Pose-Estimation",
     code: "https://github.com/mdeng376/Pose-Estimation",
-  },
-  {
-    imgSrc: articleSummarizer,
-    title: "Sumz",
-    description:
-      "Introducing Sumz: your AI-powered article summarizer, skillfully distilling lengthy articles into brief yet insightful summaries. Sumz creates these comprehensive summaries through the integration of Rapid API’s article summarizer API, powered by OpenAI’s ChatGPT 4. Users can effortlessly paste the article's web URL into the search bar, allowing the application to work its magic.",
-    stack: ["React.js", "Tailwind CSS", "Redux"],
-    view: "https://famous-torrone-676adb.netlify.app",
-    code: "https://github.com/mdeng376/AI-Article-Summarizer",
   },
   {
     imgSrc: study,
@@ -59,6 +50,15 @@ const ProjectList = [
     stack: ["React.js", "Pico CSS", "PostgreSQL"],
     view: "https://github.com/mdeng376/Creatorverse",
     code: "https://github.com/mdeng376/Creatorverse",
+  },
+  {
+    imgSrc: articleSummarizer,
+    title: "Sumz",
+    description:
+      "Introducing Sumz: your AI-powered article summarizer, skillfully distilling lengthy articles into brief yet insightful summaries. Sumz creates these comprehensive summaries through the integration of Rapid API’s article summarizer API, powered by OpenAI’s ChatGPT 4. Users can effortlessly paste the article's web URL into the search bar, allowing the application to work its magic.",
+    stack: ["React.js", "Tailwind CSS", "Redux"],
+    view: "https://famous-torrone-676adb.netlify.app",
+    code: "https://github.com/mdeng376/AI-Article-Summarizer",
   },
 ];
 
