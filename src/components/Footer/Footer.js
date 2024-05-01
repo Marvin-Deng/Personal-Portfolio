@@ -7,6 +7,7 @@ import {
 } from "react-icons/fa";
 
 import siteMetadata from "../../data/siteMetadata";
+import "./FooterStyles.css";
 
 const Footer = () => {
   return (
