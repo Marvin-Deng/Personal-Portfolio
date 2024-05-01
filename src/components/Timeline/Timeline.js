@@ -1,7 +1,11 @@
-import React from 'react';
-import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
-import 'react-vertical-timeline-component/style.min.css';
+import React from "react";
+import {
+  VerticalTimeline,
+  VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+
 import { timelineElements } from "./TimelineElements";
+import "react-vertical-timeline-component/style.min.css";
 
 const Timeline = () => {
   return (
@@ -10,24 +14,24 @@ const Timeline = () => {
         <VerticalTimelineElement
           key={index}
           contentStyle={{
-            background: 'rgb(0, 0, 0, 0)',
-            color: '#fff'
+            background: "rgb(0, 0, 0, 0)",
+            color: "#fff",
           }}
-          contentArrowStyle={{ borderRight: '7px solid  rgb(255, 255, 255)' }}
+          contentArrowStyle={{ borderRight: "7px solid  rgb(255, 255, 255)" }}
           date={element.date}
           iconStyle={{
-            background: 'linear-gradient(45deg, #002366, #ff6600)',
-            color: '#fff'
+            background: "linear-gradient(45deg, #002366, #ff6600)",
+            color: "#fff",
           }}
           icon={element.icon}
         >
           <h3>{element.title}</h3>
           <h4>{element.subtitle}</h4>
-          <p style = {{fontSize: '17px'}}>{element.content}</p>
+          <p style={{ fontSize: "17px" }}>{element.content}</p>
         </VerticalTimelineElement>
       ))}
     </VerticalTimeline>
   );
-}
+};
 
 export default Timeline;

@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
-@import url('https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.6.4/ci.min.css'); 
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://cdn.jsdelivr.net/gh/dheereshagrwal/colored-icons@1.6.4/ci.min.css");
 
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Outfit', sans-serif;
+  font-family: "Outfit", sans-serif;
 }
 
 body {
-  background: rgb(1, 1, 22)
+  background: rgb(1, 1, 22);
 }
 
 h1,
@@ -53,7 +53,7 @@ u1 {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow-wrap: break-word; 
+  overflow-wrap: break-word;
 }
 
 .bar {

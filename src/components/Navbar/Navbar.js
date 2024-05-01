@@ -1,9 +1,10 @@
-import "./NavbarStyles.css";
 import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
-import siteMetadata from "../../data/siteMetadata"
+
+import siteMetadata from "../../data/siteMetadata";
+import "./NavbarStyles.css";
 
 const Navbar = () => {
   const [click, setClick] = useState(false);
@@ -45,16 +46,24 @@ const Navbar = () => {
 
       <ul className={click ? "nav-menu active" : "nav-menu"}>
         <li>
-          <Link to="/" onClick={closeMenu}>Home</Link>
+          <Link to="/" onClick={closeMenu}>
+            Home
+          </Link>
         </li>
         <li>
-          <Link to="/projects" onClick={closeMenu}>Projects</Link>
+          <Link to="/projects" onClick={closeMenu}>
+            Projects
+          </Link>
         </li>
         <li>
-          <Link to="/tech" onClick={closeMenu}>Technologies</Link>
+          <Link to="/tech" onClick={closeMenu}>
+            Technologies
+          </Link>
         </li>
         <li>
-          <Link to="/about" onClick={closeMenu}>About</Link>
+          <Link to="/about" onClick={closeMenu}>
+            About
+          </Link>
         </li>
       </ul>
       <div className="bars" onClick={handleClick}>
@@ -68,4 +77,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar
+export default Navbar;

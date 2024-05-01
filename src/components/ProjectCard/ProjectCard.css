@@ -1,82 +1,82 @@
 .project-container {
-    max-width: 1300px;
-    display: grid;
-    margin: auto;
-    grid-template-columns: repeat(2, 1fr);
-    padding: 4rem;
-    gap: 60px;
+  max-width: 1300px;
+  display: grid;
+  margin: auto;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 4rem;
+  gap: 60px;
 }
 
 .project-card {
-    border: 1px solid #ffffff;
+  border: 1px solid #ffffff;
 }
 
-.project-img img{
-    width: 100%;
-    height: 30%;
+.project-img img {
+  width: 100%;
+  height: 30%;
 }
 
 .project-title {
-    background: linear-gradient(to right,#ff009d, #00d9ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    font-size: 2rem;
-    padding: 1rem 0;
-    text-align: center;
+  background: linear-gradient(to right, #ff009d, #00d9ff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-size: 2rem;
+  padding: 1rem 0;
+  text-align: center;
 }
 
 .description {
-    padding-bottom: 1rem;
-    font-size: 1.1rem;
-    padding: 0 3rem;
-    text-align: justify;
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
+  padding: 0 3rem;
+  text-align: justify;
 }
 
 .project-details h3 {
-    color: white;
-    text-align: center;
+  color: white;
+  text-align: center;
 }
 
 .stack-items-container {
-    display: flex; 
-    flex-wrap: wrap;
-    gap: 30px;
-    padding: 1.5rem 0;
-    justify-content: center; 
-    align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 1.5rem 0;
+  justify-content: center;
+  align-items: center;
 }
 
 .stack-items-container p {
-    padding-bottom: 1rem;
-    font-size: 1.1rem;
+  padding-bottom: 1rem;
+  font-size: 1.1rem;
 }
 
 .project-btns {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 4rem 3rem;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 4rem 3rem;
+  align-items: center;
 }
 
-.project-btns .btn{
-    padding: 0.5rem 1.5rem;
+.project-btns .btn {
+  padding: 0.5rem 1.5rem;
 }
 
 @media screen and (max-width: 900px) {
-    .project-container {
-        display: flex;
-        flex-direction: column;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+  .project-container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 
-    .description {
-        padding: 0 2rem;
-    }
+  .description {
+    padding: 0 2rem;
+  }
 
-    .stack-items-container p {
-        padding: 0 2rem;
-        font-size: 1.1rem;
-    }
+  .stack-items-container p {
+    padding: 0 2rem;
+    font-size: 1.1rem;
+  }
 }

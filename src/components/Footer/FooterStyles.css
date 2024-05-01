@@ -1,70 +1,70 @@
 .footer {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 2rem;
 }
 
 .horizontal-line {
-    border: none;
-    border-top: 2px solid #363434;
-    margin: 20px 0;
+  border: none;
+  border-top: 2px solid #363434;
+  margin: 20px 0;
 }
 
 .footer-container {
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 40px;
-    padding: 0 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  padding: 0 20px;
 }
 
 .footer-item {
-    display: flex;
-    flex-direction: column;
-    margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
 }
 
 .contact {
-    display: inline-block;
-    transition: transform 0.3s ease;
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
 
 .contact:hover {
-    transform: translateX(7px);
+  transform: translateX(7px);
 }
 
 .social a {
-    display: inline-block;
-    transition: transform 0.4s ease;
+  display: inline-block;
+  transition: transform 0.4s ease;
 }
 
 .social a:hover {
-    transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .footer-icon {
-    font-size: 20px;
-    color: white;
-    margin-left: 1rem;
+  font-size: 20px;
+  color: white;
+  margin-left: 1rem;
 }
 
 .social-icon {
-    width: 32px;
-    height: 32px;
-    background-size: cover;
-    margin-right: 1rem;
-    color: white;
+  width: 32px;
+  height: 32px;
+  background-size: cover;
+  margin-right: 1rem;
+  color: white;
 }
 
 h4 {
-    font-size: 1.3rem;
-    padding-bottom: 0.7rem;
+  font-size: 1.3rem;
+  padding-bottom: 0.7rem;
 }
 
 @media screen and (max-width: 850px) {
-    h4 {
-        font-size: 1rem;
-        padding-bottom: 0.7rem;
-    }
+  h4 {
+    font-size: 1rem;
+    padding-bottom: 0.7rem;
+  }
 }

@@ -1,38 +1,38 @@
 .card-container {
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 40px;
-    padding: 4rem 40px;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 40px;
+  padding: 4rem 40px;
 }
 
 .card {
-    border: 1px solid #eee;
-    color: #eee;
-    text-align: center;
-    padding: 2rem;
-    transform: translateY(20px); 
-    transition: transform 0.5s ease; 
+  border: 1px solid #eee;
+  color: #eee;
+  text-align: center;
+  padding: 2rem;
+  transform: translateY(20px);
+  transition: transform 0.5s ease;
 }
 
 .card.in-viewport {
-    transform: translateY(-20px);
+  transform: translateY(-20px);
 }
 
 .card h3 {
-    font-size: 1.4rem;
-    padding: 1rem;
+  font-size: 1.4rem;
+  padding: 1rem;
 }
 
 .card p {
-    padding: 20px 0;
+  padding: 20px 0;
 }
 
 @media screen and (max-width: 740px) {
-    .card-container {
-        max-width: 90%;
-        margin: auto;
-        grid-template-columns: 1fr;
-    }
+  .card-container {
+    max-width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
 }

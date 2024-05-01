@@ -1,10 +1,10 @@
-import "./HomeStyles.css"
-import IntroImg from "../../assets/sunset.jpg"
-import { Link } from "react-router-dom"
+import { Link } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 
-const Home = () => {
+import IntroImg from "../../assets/sunset.jpg";
+import "./HomeStyles.css";
 
+const Home = () => {
   return (
     <div className="hero">
       <div className="mask">
@@ -17,9 +17,7 @@ const Home = () => {
               autoStart: true,
               loop: true,
               delay: 80,
-              strings: [
-                "Welcome to my Portfolio!"
-              ]
+              strings: ["Welcome to my Portfolio!"],
             }}
           />
         </p>
@@ -34,7 +32,7 @@ const Home = () => {
         </div>
       </div>
     </div>
-  )
-}
+  );
+};
 
-export default Home
+export default Home;

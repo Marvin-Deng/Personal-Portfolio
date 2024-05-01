@@ -1,25 +1,22 @@
-import "./ProjectImgStyles.css"
-import ProjectDisplay from "../../components/ProjectCard/ProjectDisplay"
+import ProjectDisplay from "../../components/ProjectCard/ProjectDisplay";
 import Footer from "../../components/Footer/Footer";
 import siteMetadata from "../../data/siteMetadata";
+
+import "./ProjectImgStyles.css";
 
 const Projects = () => {
   return (
     <div>
       <div className="hero-img">
         <div className="heading">
-            <h1>
-                {siteMetadata.projectsHeader}
-            </h1>
-            <p>
-                {siteMetadata.aboutProjects}
-            </p>
+          <h1>{siteMetadata.projectsHeader}</h1>
+          <p>{siteMetadata.aboutProjects}</p>
         </div>
       </div>
       <ProjectDisplay />
       <Footer />
     </div>
-  )
-}
+  );
+};
 
-export default Projects
+export default Projects;
